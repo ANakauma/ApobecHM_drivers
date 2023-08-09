@@ -6,10 +6,10 @@ The scripts could easily be adapted to include other relevant co-variates or for
 
 
 ## Running the code
-The user must provide a table with mutations indicating the sample, chr, position, etc. (see example file `SNV_data.txt`). This repository contains the following scripts:
+The user must provide a table with mutations indicating the sample, chr, position, etc. (see example file `data/SNV_data.txt`). This repository contains the following scripts:
 
 - `1.prepareData.R` identifies APOBEC positive samples and calculates the APOBEC fold enrichment score in tri- and tetra-nucleotide context.
-- `2.Hairpinloops_stability.R` will predict hairpin loops around all provided provided genomic positions (SNVs) and calculates the thermodynamic stability. It will also identify twin mutations and didymi.
+- `2.Hairpinloops_stability.R` will predict hairpin loops around all provided genomic positions (SNVs) and calculates the thermodynamic stability. It will also identify twin mutations and didymi.
 - `3. driverHotspotMuts.R` identifies driver hotspot mutations modeled as a poisson process.
 
 
