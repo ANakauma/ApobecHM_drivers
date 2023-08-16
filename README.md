@@ -1,6 +1,6 @@
 # Driver APOBEC-derived hotspot mutations in whole genomes 
 
-This repository contains R scripts to identify driver hotspot mutations in whole-genomes of APOBEC-enriched tumors. The original script was developed for whole-genome sequencing data as it assumes that most hotspot mutations (>1 mutations in the same genomic position) are passengers, which is the base for the background mutational rate. The background mutational rate also considers the trinucleotide context, the stability of hairpin loops, the sequence within the loops and the genomic region. These variables are provided or can be estimated with the scripts of this repository.
+This repository contains R scripts to identify driver hotspot mutations in whole-genomes of APOBEC-enriched tumors. The original script was developed for whole-genome sequencing data (https://doi.org/10.1101/2023.08.09.23293865) as it assumes that most hotspot mutations (>1 mutations in the same genomic position) are passengers, which is the base for the background mutational rate. The background mutational rate also considers the trinucleotide context, the stability of hairpin loops, the sequence within the loops and the genomic region. These variables are provided or can be estimated with the scripts of this repository.
 
 The scripts could easily be adapted to include other relevant co-variates or for specific cases. 
 
@@ -15,6 +15,6 @@ The user must provide a table with mutations indicating the sample, chr, positio
 
 ## Citation
 
-If you use this script in your work, please cite the original study:
+If you use this script in your work, please cite the original study (*Under Review*):
 
-Nakauma-González JA, Rijnders M, Noordsij MTW, Martens JWM, van der Veldt AAM, Lolkema MPJ, Boormans JL, van de Werken HJG. Whole-genome mapping of APOBEC mutagenesis in metastatic urothelial carcinoma identifies driver hotspot mutations and a  novel mutational signature. *Under Review*
+Nakauma-González JA, Rijnders M, Noordsij MTW, Martens JWM, van der Veldt AAM, Lolkema MPJ, Boormans JL, van de Werken HJG. Whole-genome mapping of APOBEC mutagenesis in metastatic urothelial carcinoma identifies driver hotspot mutations and a  novel mutational signature. medRxiv, doi:https://doi.org/10.1101/2023.08.09.23293865.
